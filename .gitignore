@@ -1,0 +1,44 @@
+# --- Next.js (web/) ---
+web/node_modules/
+web/.next/
+web/out/
+web/build/
+web/.vercel/
+web/.turbo/
+web/coverage/
+web/*.tsbuildinfo
+
+# Ortam (asla commitlenmesin)
+**/.env
+**/.env.local
+**/.env.*.local
+!**/.env.example
+
+# Loglar
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Firebase CLI yerel
+.firebase/
+firestore-debug.log
+ui-debug.log
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDE
+.idea/
+
+# Cursor — yerel proje önbelleği (kurallar `.cursor/rules` ile commitlenebilir)
+.cursor/projects/
+
+# Güvenlik
+*.pem
+
+# Yerel dağıtım arşivleri (ör. EngiBin-v1.0.0-source.zip)
+/EngiBin-*.zip
